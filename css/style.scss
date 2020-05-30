@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.Upperbanner {
+	background-color: #fff3f3;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	#topleft {
+		height: 40px;
+	}
+}
+
+.Nav {
+	background-color: #8e1616;
+	
+
+	#List {
+		margin: 0;
+		list-style-type: none;
+
+		li {
+			display: inline-block;
+			margin: 10px;
+
+			a {
+				color: white;
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+.Footcontent {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	height: 250px;
+
+	.Nav2 {
+		
+		#List2 {
+			margin: 0;
+			list-style-type: none;
+
+			li {
+				display: inline-block;
+				margin: 10px;
+
+				a {
+					color: white;
+					text-decoration: none;
+					font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				}
+			}
+		}
+	}
+
+	#bottomtext {
+		align-self: flex-end;
+
+		p {
+			color: white;
+		}
+	}
+
+	#bottompic {
+		align-self: center;
+	}
+}
+
+#top {
+	background-image: url(../img/traffic.jpg);
+	height: 800px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	
+}
+
+#mid {
+	background-color: #cecece;
+	text-align: center;
+	padding: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+#bot {
+	display: flex;
+	justify-content: space-around;
+	
+	#botbox {
+		border: 1px;
+	}
+}

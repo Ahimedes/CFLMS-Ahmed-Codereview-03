@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.Upperbanner {
+  background-color: #fff3f3;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .Upperbanner #topleft {
+    height: 40px; }
+
+.Nav {
+  background-color: #8e1616; }
+  .Nav #List {
+    margin: 0;
+    list-style-type: none; }
+    .Nav #List li {
+      display: inline-block;
+      margin: 10px; }
+      .Nav #List li a {
+        color: white;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        text-decoration: none; }
+
+.Footcontent {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 250px; }
+  .Footcontent .Nav2 #List2 {
+    margin: 0;
+    list-style-type: none; }
+    .Footcontent .Nav2 #List2 li {
+      display: inline-block;
+      margin: 10px; }
+      .Footcontent .Nav2 #List2 li a {
+        color: white;
+        text-decoration: none;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+  .Footcontent #bottomtext {
+    align-self: flex-end; }
+    .Footcontent #bottomtext p {
+      color: white; }
+  .Footcontent #bottompic {
+    align-self: center; }
+
+#top {
+  background-image: url(../img/traffic.jpg);
+  height: 800px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%; }
+
+#mid {
+  background-color: #cecece;
+  text-align: center;
+  padding: 10px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+#bot {
+  display: flex;
+  justify-content: space-around; }
+  #bot #botbox {
+    border: 1px; }
+
+/*# sourceMappingURL=style.css.map */
