@@ -22,7 +22,6 @@ function calculateInsurance() {
 	    default:
 	        cost = "Something is not right...";
 	    }
-	
+	cost = Math.ceil(cost);
 	resultNode.innerHTML = nameNode + " your inurance costs " + cost + "€"
 }
-buttonNode.addEventListener("click", calculateInsurance, false);
