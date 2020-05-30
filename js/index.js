@@ -1,22 +1,22 @@
 
 function calculateInsurance() {
 	nameNode=document.getElementById("nameinput").value;
-	ageNode=document.getElementById("Age");
-	countryNode=document.getElementById("Country");
-	hpNode=document.getElementById("HP");
-	buttonNode=document.getElementById("calculatebutton");
+	ageNode=Number(document.getElementById("Age").value);
+	countryNode=document.getElementById("Country").value;
+	hpNode=Number(document.getElementById("HP").value);
 	resultNode=document.getElementById("result");
 	cost = 0;
 
 	switch(countryNode) {
 	    case "Austria":
-	        cost = Number(hpNode.value) * 100 / Number(ageNode.value) + 50;
+	        
+	        cost = (hpNode * 100 / ageNode) + 50;
 	        break;
 	    case "Hungary":
-	        cost = Number(hpNode.value) * 120 / Number(ageNode.value) + 100;
+	        cost = (hpNode * 120 / ageNode) + 100;
 	        break;
 	    case "Greece":
-	        cost = Number(hpNode.value) * 150 / (Number(ageNode.value)+3) + 50;
+	        cost = (hpNode * 150  / (ageNode + 3) + 50);
 	        break;
 	    default:
 	        cost = "Something is not right...";
