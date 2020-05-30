@@ -1,13 +1,12 @@
-var nameNode=document.getElementById("name");
-var ageNode=document.getElementById("Age");
-var countryNode=document.getElementById("Country");
-var hpNode=document.getElementById("HP");
-var buttonNode=document.getElementById("calculatebutton");
-var resultNode=document.getElementById("result");
-var cost = 0;
-
 
 function calculateInsurance() {
+	nameNode=document.getElementById("nameinput").value;
+	ageNode=document.getElementById("Age");
+	countryNode=document.getElementById("Country");
+	hpNode=document.getElementById("HP");
+	buttonNode=document.getElementById("calculatebutton");
+	resultNode=document.getElementById("result");
+	cost = 0;
 
 	switch(countryNode) {
 	    case "Austria":
@@ -23,5 +22,8 @@ function calculateInsurance() {
 	        cost = "Something is not right...";
 	    }
 	cost = Math.ceil(cost);
-	resultNode.innerHTML = nameNode + " your inurance costs " + cost + "€"
+	resultNode.innerHTML = nameNode + " your inurance costs " + cost + "€";
+
+	
 }
+
