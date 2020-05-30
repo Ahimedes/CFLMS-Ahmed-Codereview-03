@@ -93,8 +93,18 @@ body {
 		position: relative;
   		background:rgba(255,255,255,0.5);
   		border: 2px groove;
-  		width: 90%;
+  		width: 80%;
   		margin: auto;
+	}
+
+	#transboxheading {
+		text-align: center;
+		color: green;
+	}
+
+	#horizontal {
+		display: flex;
+		justify-content: space-around;
 	}
 	
 }
