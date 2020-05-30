@@ -67,7 +67,8 @@ body {
     padding-bottom: 60px; }
   #top #transboxheading {
     text-align: center;
-    color: green; }
+    color: green;
+    font-size: 2em; }
   #top #horizontal {
     display: flex;
     justify-content: space-around; }
@@ -88,7 +89,8 @@ body {
   justify-content: center; }
 
 .box {
-  margin-bottom: 30%; }
+  margin-bottom: 30%;
+  font-size: 1.5em; }
 
 #mid {
   background-color: #cecece;
