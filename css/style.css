@@ -62,13 +62,33 @@ body {
     background: rgba(255, 255, 255, 0.5);
     border: 2px groove;
     width: 80%;
-    margin: auto; }
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 60px; }
   #top #transboxheading {
     text-align: center;
     color: green; }
   #top #horizontal {
     display: flex;
     justify-content: space-around; }
+
+#transbutton {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center; }
+  #transbutton #calculatebutton {
+    font-size: 2em;
+    background-color: green;
+    color: white;
+    padding: 0.2em 1em;
+    border-radius: 8px; }
+
+#output {
+  display: flex;
+  justify-content: center; }
+
+.box {
+  margin-bottom: 30%; }
 
 #mid {
   background-color: #cecece;

@@ -95,6 +95,8 @@ body {
   		border: 2px groove;
   		width: 80%;
   		margin: auto;
+  		margin-top: 20px;
+  		padding-bottom: 60px;
 	}
 
 	#transboxheading {
@@ -109,6 +111,28 @@ body {
 	
 }
 
+#transbutton {
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+
+	#calculatebutton {
+		font-size: 2em;
+		background-color: green;
+		color: white;
+		padding: 0.2em 1em;
+		border-radius: 8px;
+	}
+}
+
+#output {
+	display: flex;
+	justify-content: center;
+}
+
+.box {
+	margin-bottom: 30%;
+}
 
 
 
